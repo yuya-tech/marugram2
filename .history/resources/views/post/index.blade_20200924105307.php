@@ -7,5 +7,3 @@
 <p>仮のページ</p>
 
 <a href="#" class="btn btn-primary">仮のボタンです</a>
-
-@endsection
