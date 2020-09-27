@@ -6,9 +6,6 @@
 <a href="{{route('logout')}}" onclick="event.preventDefault();document.getElementByld('logout-form').submit();">
     サインアウト<br/>
 </a>
-<form id="logout-form" action="{{route('logout')}}" method="POST" style="display: none;">
-    {{ csrf_field() }}
-</form>
 <p>仮のページ</p>
 
 <a href="#" class="btn btn-primary">仮のボタンです</a>
