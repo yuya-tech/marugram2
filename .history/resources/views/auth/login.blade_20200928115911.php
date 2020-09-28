@@ -17,7 +17,6 @@
                 <div class="form-group">
                     <input id="password" type="password" class="form-control" name="password" placeholder="パスワード" requird>
                 </div>
-
                 <div class="actions">
                     <input type="submit" name="commit" value="サインインする" class="btn btn-primary w-100">
                 </div>
