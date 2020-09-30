@@ -14,7 +14,7 @@ class UsersController extends Controller
         $user = User::where('id', $user_id)
             ->firstOrFail();
 
-        //テンプレート (use/show.blade.phpを表示します
+        //テンプレート ('use/show',['user' => $user]);
         return view('user/show', ['user' => $user]);
     }
 }
