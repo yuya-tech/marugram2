@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\User;
-
 use Auth;
 // ==========ここから追加する==========
 use Validator;
