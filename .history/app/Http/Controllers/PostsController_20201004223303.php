@@ -18,17 +18,11 @@ class PostsController extends Controller
         $this->middleware('auth');
     }
     // ==========ここまで追加する==========
-    // ==========ここから編集する==========
     public function index()
     {
-        $posts = Post::limit(10)
-            ->orderBy('created_at', 'desc')
-            ->get();
-
         // テンプレート「post/index.blade.php」を表示します。
-        return view('post/index', ['posts' => $posts]);
+        return view('post/index');
     }
-    // ==========ここまで編集する==========
     public function new()
     {
         // テンプレート「post/new.blade.php」を表示します。
