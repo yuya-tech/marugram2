@@ -10,7 +10,7 @@
 }
 .navbar__mainLogo {
   background-repeat: no-repeat;
-  background-image: url("/images/logo.png");
+  background-image: url("/images/logo2.png");
 }
 .navbar-nav > li {
   margin-left: 20px;
@@ -51,7 +51,7 @@ body {
   margin: 50px auto;
 }
 .logo-img {
-  background-image: url("/images/logo.png");
+  background-image: url("/images/logo2.png");
   background-repeat: no-repeat;
   height: 56px;
   width: 180px;
