@@ -28,7 +28,7 @@ class AddImageToPostsTable extends Migration
     {
         Schema::table('posts', function (Blueprint $table) {
             // ==========ここから追加する==========
-
+            $table->longText('image')->nullable();
             // ==========ここまで追加する==========
             //
         });
